@@ -10,6 +10,8 @@ LendingClub dataset obtained from Kaggle.com: https://www.kaggle.com/wendykan/le
 
 The CSV file contains complete loan data for all loans issued through the 2007-2018, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. Additional features include credit scores, number of finance inquiries, address including zip codes, and state, and collections among others.
 
+### Note: The sample dataset I used in modeling is too large to upload to Github, but I have specified in my code exactly how to get the same piece of data.
+
 ## Model Achievement:
 We are able to build a Neural Network Model on top of the LendingClub loan data to predict the Good/Bad loans at the level of 79% accuracy rate f1-score. Moreover, we refined the model to further reduce overfitting; and customized the model to play more conservative on the Type 2 error side.
 
