@@ -5,6 +5,11 @@ On May 5, 2020 LendingClub announced their Q1 2020 earnings. Lenders in the US a
 
 All the related news above, having happened just in the most recent a couple of days, motivated me to pick this project as my final Capstone Project for the Udacity Data Science NanoDegree.
 
+## Data Source:
+LendingClub dataset obtained from Kaggle.com: https://www.kaggle.com/wendykan/lending-club-loan-data
+
+The CSV file contains complete loan data for all loans issued through the 2007-2018, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. Additional features include credit scores, number of finance inquiries, address including zip codes, and state, and collections among others.
+
 ## Model Achievement:
 We are able to build a Neural Network Model on top of the LendingClub loan data to predict the Good/Bad loans at the level of 79% accuracy rate f1-score. Moreover, we refined the model to further reduce overfitting; and customized the model to play more conservative on the Type 2 error side.
 
